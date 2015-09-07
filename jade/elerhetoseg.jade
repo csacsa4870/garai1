@@ -1,0 +1,55 @@
+script(src='https://maps.googleapis.com/maps/api/js')
+script.
+    var garaiMap = (function () {
+    var myLatlng = new google.maps.LatLng(46.412373, 20.311887),
+    mapCenter = new google.maps.LatLng(46.412373,20.311887),
+    mapCanvas = document.getElementById('map_canvas'),
+    mapOptions = {
+    center: mapCenter,
+    zoom: 15,
+    scrollwheel: false,
+    draggable: true,
+    mapTypeControl: false,
+    panControl: false,
+    zoomControl: true,
+    zoomControlOptions: {
+    style: google.maps.ZoomControlStyle.SMALL,
+    position: google.maps.ControlPosition.RIGHT_BOTTOM
+    },
+    scaleControl: false,
+    streetViewControl: false,
+    overviewMapControl: false,
+    mapTypeId: google.maps.MapTypeId.ROADMAP
+    },
+    map = new google.maps.Map(mapCanvas, mapOptions),
+    contentString =
+    '<div id="content">'+
+    '<div id="siteNotice">'+
+    '</div>'+
+    '<h1 id="firstHeading" class="firstHeading">GARAI VAGYONVÉDELEM</h1>'+
+    '<div id="bodyContent"'+
+    '<p>Kodály Zoltán u. 1</p>'+
+    '</div>'+
+    '</div>',
+    infowindow = new google.maps.InfoWindow({
+    content: contentString,
+    maxWidth: 300
+    }),
+    marker = new google.maps.Marker({
+    position: myLatlng,
+    map: map,
+    title: 'GARAI VAGYONVÉDELEM',
+    animation: google.maps.Animation.DROP
+    });
+    return {
+    init: function () {
+    map.set('styles', 
+    [{"featureType":"water","stylers":[{"color":"#19a0d8"}]},{"featureType":"administrative","elementType":"labels.text.stroke","stylers":[{"color":"#ffffff"},{"weight":6}]},{"featureType":"administrative","elementType":"labels.text.fill","stylers":[{"color":"#e85113"}]},{"featureType":"road.highway","elementType":"geometry.stroke","stylers":[{"color":"#efe9e4"},{"lightness":-40}]},{"featureType":"road.arterial","elementType":"geometry.stroke","stylers":[{"color":"#efe9e4"},{"lightness":-20}]},{"featureType":"road","elementType":"labels.text.stroke","stylers":[{"lightness":100}]},{"featureType":"road","elementType":"labels.text.fill","stylers":[{"lightness":-100}]},{"featureType":"road.highway","elementType":"labels.icon"},{"featureType":"landscape","elementType":"labels","stylers":[{"visibility":"off"}]},{"featureType":"landscape","stylers":[{"lightness":20},{"color":"#e4e8ef"}]},{"featureType":"landscape.man_made","stylers":[{"visibility":"off"}]},{"featureType":"water","elementType":"labels.text.stroke","stylers":[{"lightness":100}]},{"featureType":"water","elementType":"labels.text.fill","stylers":[{"lightness":-100}]},{"featureType":"poi","elementType":"labels.text.fill","stylers":[{"hue":"#11ff00"}]},{"featureType":"poi","elementType":"labels.text.stroke","stylers":[{"lightness":100}]},{"featureType":"poi","elementType":"labels.icon","stylers":[{"hue":"#4cff00"},{"saturation":58}]},{"featureType":"poi","elementType":"geometry","stylers":[{"visibility":"on"},{"color":"#aad4aa"}]},{"featureType":"road.highway","elementType":"geometry.fill","stylers":[{"color":"#e4e9ef"},{"lightness":-25}]},{"featureType":"road.arterial","elementType":"geometry.fill","stylers":[{"color":"#e4e8ef"},{"lightness":-10}]},{"featureType":"poi","elementType":"labels","stylers":[{"visibility":"simplified"}]}]
+    );
+    google.maps.event.addListener(marker, 'click', function () {
+    infowindow.open(map,marker);
+    });
+    }
+    };
+    }());
+    garaiMap.init();

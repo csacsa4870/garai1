@@ -1,0 +1,120 @@
+@import css/reset
+@import css/bourbon/_bourbon   
+@import css/mixins
+
+*
+    //transition: all 300ms ease-in-out
+body
+    background: transparentize($alapszin, 0.7)
+    font-size: 15px
+    line-height: 1.2em
+    font-family: 'Open Sans', sans-serif
+    -webkit-font-smoothing: antialiased
+    -webkit-text-size-adjust: 100%
+h1, h2, h3, h4, h5, h6, strong
+    font:
+        family: 'Roboto Condensed', sans-serif
+        weight: 700
+h2
+    display: inline-block
+    background: transparentize($alapszin, 0.8)
+    color: $alapszin
+    margin: 10px 50%
+    transform: translateX(-50%)
+    padding: 10px 150px
+    //width: 400px
+    font:
+        size: 22px
+    text:
+        align: center
+        transform: uppercase
+    
+    
+h3
+    color: $alapszin
+    line-height: 22px
+    font:
+        size: 18px
+    text:
+        align: left
+        transform: uppercase
+    margin: 10px 0 0
+h4
+    color: $szurke
+    font:
+        size: 16px
+    text:
+        align: center
+        transform: uppercase
+    margin: 10px 0 0
+p, a
+    font-weight: 300
+    text:
+        align: justify
+        indent: 10px
+    margin: 0 15px 5px 0
+    strong
+        font-weight: 700
+a
+    color: $alapszin
+    text-decoration: none
+    font-weight: 700
+    margin: 0 2px 5px 0
+    +transition(color 300ms $ease-out-quart)
+    &:hover
+        color: #3100ff
+    
+hr
+    display: none
+    margin: 0 100px 20px
+    height: 1px
+    border: 0
+    color: $alapszin
+    background-color: $alapszin
+
+.container
+    +position(relative)
+    width: 100%
+    //max-width: 900px
+    height: 100vh
+    margin: 0 auto
+    background: white
+    overflow: hidden
+    
+@import css/nav
+@import css/_map
+@media (max-width: 650px)
+    @import css/mobile_nav
+    
+.energia
+    position: relative
+    width: auto
+    //background: pink
+    p, h3
+        display: block
+        width: 100%
+        text-align: center
+footer
+    display: block
+    +position(fixed, null 0 0px 0)
+    height: $footer
+    background:
+        image: url(img/technical-security-systems_csik.jpg)
+        repeat: no-repeat
+        position: 50% 100%
+        size: cover
+    z-index: 400
+    
+.clearfix
+    display: inline-block
+
+/* Hides from IE-mac \
+
+* html .clearfix
+    height: 1%
+
+.clearfix
+    display: block
+
+/* End hide from IE-mac
+/* @end

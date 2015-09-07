@@ -1,0 +1,628 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+ * v2.0 | 20110126
+ * License: none (public domain) */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+body {
+  background: rgba(84, 134, 245, 0.3);
+  font-size: 15px;
+  line-height: 1.2em;
+  font-family: "Open Sans", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%; }
+
+h1, h2, h3, h4, h5, h6, strong {
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 700; }
+
+h2 {
+  display: inline-block;
+  background: rgba(84, 134, 245, 0.2);
+  color: #5486f5;
+  margin: 10px 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+  padding: 10px 150px;
+  font-size: 22px;
+  text-align: center;
+  text-transform: uppercase; }
+
+h3 {
+  color: #5486f5;
+  line-height: 22px;
+  font-size: 18px;
+  text-align: left;
+  text-transform: uppercase;
+  margin: 10px 0 0; }
+
+h4 {
+  color: #403625;
+  font-size: 16px;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 10px 0 0; }
+
+p, a {
+  font-weight: 300;
+  text-align: justify;
+  text-indent: 10px;
+  margin: 0 15px 5px 0; }
+  p strong, a strong {
+    font-weight: 700; }
+
+a {
+  color: #5486f5;
+  text-decoration: none;
+  font-weight: 700;
+  margin: 0 2px 5px 0;
+  -webkit-transition: color 300ms cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition: color 300ms cubic-bezier(0.165, 0.84, 0.44, 1); }
+  a:hover {
+    color: #3100ff; }
+
+hr {
+  display: none;
+  margin: 0 100px 20px;
+  height: 1px;
+  border: 0;
+  color: #5486f5;
+  background-color: #5486f5; }
+
+.container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  margin: 0 auto;
+  background: white;
+  overflow: hidden; }
+
+.tartalom {
+  display: block;
+  overflow-y: auto;
+  overflow-x: hidden;
+  border-left: 1px solid #5486f5;
+  opacity: 0;
+  -webkit-transform: scaleY(5.5) translateY(-1500px);
+  -ms-transform: scaleY(5.5) translateY(-1500px);
+  transform: scaleY(5.5) translateY(-1500px);
+  color: black;
+  padding: 0 0 20px 15px;
+  text-align: left;
+  font-weight: 300;
+  -webkit-transition: all 300ms cubic-bezier(0.895, 0.03, 0.685, 0.22);
+  transition: all 300ms cubic-bezier(0.895, 0.03, 0.685, 0.22);
+  z-index: 0; }
+
+label {
+  font-family: "Roboto Condensed", sans-serif;
+  border-bottom: 0px;
+  -webkit-transition: all 100ms ease;
+  transition: all 100ms ease;
+  display: block;
+  width: 180px;
+  text-align: center;
+  cursor: pointer;
+  color: rgba(255, 255, 255, 0.8);
+  z-index: 5;
+  font-weight: 700;
+  font-size: 16px;
+  padding: 10px 20px; }
+  label:hover {
+    -webkit-transform: scale(1.04);
+    -ms-transform: scale(1.04);
+    transform: scale(1.04);
+    background: rgba(134, 176, 255, 0.8);
+    z-index: 10;
+    color: white; }
+
+input {
+  display: none; }
+  input:checked + .szoveg-wrap .tartalom {
+    opacity: 1;
+    -webkit-transform: scaleY(1) translateY(0px);
+    -ms-transform: scaleY(1) translateY(0px);
+    transform: scaleY(1) translateY(0px);
+    z-index: 100; }
+  input:checked + .szoveg-wrap label {
+    background: rgba(19, 74, 195, 0.76);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(50%, transparent), color-stop(90%, transparent), color-stop(90%, #fa063e), color-stop(90%, #00208b));
+    background-image: -webkit-linear-gradient(top, transparent 50%, transparent 90%, #fa063e 90%, #00208b 90%);
+    background-image: linear-gradient(to bottom, transparent 50%, transparent 90%, #fa063e 90%, #00208b 90%);
+    color: white;
+    z-index: 500; }
+
+nav {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 110px;
+  background-image: url(img/technical-security-systems_csik.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 25%;
+  -webkit-background-size: cover;
+  background-size: cover;
+  z-index: 40; }
+
+.nav-wrap {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  box-pack: center;
+  -webkit-justify-content: center;
+  -moz-justify-content: center;
+  -ms-justify-content: center;
+  -o-justify-content: center;
+  justify-content: center;
+  -ms-flex-pack: center;
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+  height: 110px;
+  margin: 0 auto;
+  max-width: 900px; }
+  .nav-wrap .garai-logo {
+    position: fixed;
+    top: 0;
+    right: 50px;
+    height: auto;
+    width: 110px;
+    padding: 4px 20px;
+    z-index: 41; }
+    .nav-wrap .garai-logo label {
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      height: auto;
+      width: 110px;
+      padding: 0px;
+      margin: 9px auto;
+      background: none; }
+      .nav-wrap .garai-logo label:hover {
+        padding: 0px;
+        -webkit-transform: scale(1);
+        -ms-transform: scale(1);
+        transform: scale(1); }
+      .nav-wrap .garai-logo label svg {
+        height: auto;
+        width: 110px; }
+        .nav-wrap .garai-logo label svg path {
+          fill: white;
+          -webkit-transition: all 100ms ease;
+          transition: all 100ms ease; }
+        .nav-wrap .garai-logo label svg:hover path {
+          fill: #001a5d; }
+  .nav-wrap .navbar {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%; }
+    .nav-wrap .navbar .szoveg-wrap {
+      -webkit-box-flex: 1;
+      -webkit-flex: 1 1 auto;
+      -ms-flex: 1 1 auto;
+      flex: 1 1 auto; }
+      .nav-wrap .navbar .szoveg-wrap label {
+        width: 100%;
+        position: relative;
+        padding: 10px 0;
+        font-size: 20px;
+        line-height: 20px;
+        z-index: 90; }
+        .nav-wrap .navbar .szoveg-wrap label:hover {
+          position: relative;
+          padding: 10px 4px;
+          z-index: 100; }
+      .nav-wrap .navbar .szoveg-wrap .tartalom {
+        position: absolute;
+        top: 110px;
+        right: 0;
+        bottom: 80px;
+        left: 230px;
+        z-index: 14; }
+
+.row2 {
+  position: relative;
+  height: 100%;
+  width: 100%; }
+  .row2 .sidenav-column {
+    position: relative;
+    height: 100%;
+    width: 220px;
+    z-index: 1;
+    background: #5486f5; }
+  .row2 .sidenav {
+    position: relative;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 5;
+    overflow: hidden; }
+    .row2 .sidenav .szolgdiv {
+      font-family: "Roboto Condensed", sans-serif;
+      width: 180px;
+      text-align: center;
+      background: #403625;
+      color: rgba(255, 255, 255, 0.8);
+      z-index: 5;
+      font-weight: 700;
+      font-size: 18px;
+      padding: 10px 20px; }
+    .row2 .sidenav .szoveg-wrap label {
+      background: #5486f5; }
+      .row2 .sidenav .szoveg-wrap label:hover {
+        background: #86b0ff; }
+    .row2 .sidenav .szoveg-wrap .tartalom {
+      margin-bottom: 110px;
+      position: absolute;
+      top: 0px;
+      right: 0;
+      bottom: 80px;
+      left: 230px; }
+    .row2 .sidenav input {
+      display: none; }
+      .row2 .sidenav input:checked + .szoveg-wrap label {
+        background: #134ac3;
+        background-image: -webkit-gradient(linear, left top, left bottom, color-stop(50%, transparent), color-stop(90%, transparent), color-stop(90%, #fa063e), color-stop(90%, #00208b));
+        background-image: -webkit-linear-gradient(top, transparent 50%, transparent 90%, #fa063e 90%, #00208b 90%);
+        background-image: linear-gradient(to bottom, transparent 50%, transparent 90%, #fa063e 90%, #00208b 90%); }
+
+.felsorolas p {
+  text-align: left;
+  text-indent: -9px;
+  font-weight: 400;
+  padding-left: 20px; }
+  .felsorolas p::before {
+    content: "- "; }
+.felsorolas h3::before {
+  content: "- "; }
+
+.location {
+  position: relative;
+  display: block;
+  width: 500px;
+  margin: 0 auto; }
+  .location::after {
+    clear: both;
+    content: "";
+    display: table; }
+  .location .loc-icon {
+    height: 50px;
+    width: 50px;
+    position: relative;
+    top: -10px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin-left: 10px;
+    background: #5486f5;
+    background: #5486f5;
+    border-radius: 50%;
+    float: left; }
+    .location .loc-icon img {
+      position: absolute;
+      top: 10px;
+      right: 0;
+      bottom: 0;
+      left: 10px;
+      height: 30px;
+      width: 30px; }
+  .location p {
+    display: block;
+    height: 40px;
+    background: rgba(84, 134, 245, 0.3);
+    font-weight: 400;
+    padding-top: 5px;
+    margin-bottom: 20px; }
+    .location p:last-child {
+      margin-bottom: 0px; }
+
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden; }
+  .video-container iframe, .video-container object, .video-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+
+.mobile-nav-wrap {
+  display: none; }
+
+@media (max-height: 690px) {
+  .row2 .sidenav-column {
+    width: 150px; }
+  .row2 .sidenav .szolgdiv {
+    width: 110px;
+    font-size: 15px; }
+  .row2 .sidenav .szoveg-wrap label {
+    padding: 7px 0px;
+    font-size: 14px;
+    width: 150px; }
+  .row2 .sidenav .szoveg-wrap .tartalom {
+    position: absolute;
+    top: 0px;
+    right: 0;
+    bottom: 80px;
+    left: 160px; }
+
+  .nav-wrap .navbar .szoveg-wrap .tartalom {
+    position: absolute;
+    top: 110px;
+    right: 0;
+    bottom: 80px;
+    left: 160px; } }
+@media (max-width: 900px) {
+  .container {
+    overflow: hidden; } }
+@media (max-width: 830px) {
+  .nav-wrap .navbar .szoveg-wrap label {
+    padding: 20px 0;
+    font-size: 17px;
+    line-height: 20px;
+    z-index: 90; } }
+@media (max-width: 830px) {
+  .nav-wrap .navbar .szoveg-wrap label {
+    padding: 20px 0;
+    font-size: 15px;
+    line-height: 20px;
+    z-index: 90; } }
+@media (max-width: 650px) {
+  .garai-logo {
+    display: none; }
+
+  .row2 .sidenav .szoveg-wrap .tartalom {
+    left: 0;
+    border-left: 0px;
+    padding: 0px 20px 20px; }
+  .row2 .sidenav-column {
+    display: none; }
+
+  .nav-wrap .navbar .szoveg-wrap .tartalom {
+    left: 0;
+    border-left: 0px;
+    padding: 0px 20px 20px; } }
+.tartalom.eler {
+  padding: 0px;
+  margin-bottom: 0px; }
+
+#map_canvas {
+  display: block;
+  position: relative;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0px;
+  height: 50%;
+  width: 100%;
+  margin-bottom: 20px; }
+  #map_canvas img {
+    max-width: none; }
+  #map_canvas .content {
+    padding: 0 0.5em 1em 0.5em; }
+  #map_canvas .firstHeading {
+    font-size: 1em;
+    line-height: 1em;
+    font-weight: bold;
+    margin: 0; }
+  #map_canvas #bodyContent p {
+    font-size: 1em;
+    margin: 0; }
+
+@media (max-width: 650px) {
+  .container {
+    height: 200vh; }
+
+  label:hover {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1); }
+
+  .mobile-nav-wrap {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0; }
+    .mobile-nav-wrap .mobile-nav {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 20px;
+      height: 40px;
+      width: 40px;
+      padding: 10px;
+      z-index: 40;
+      -webkit-transition: all 300ms cubic-bezier(0.895, 0.03, 0.685, 0.22);
+      transition: all 300ms cubic-bezier(0.895, 0.03, 0.685, 0.22); }
+      .mobile-nav-wrap .mobile-nav label {
+        height: 40px;
+        width: 130px;
+        display: block;
+        cursor: pointer;
+        padding: 5px; }
+        .mobile-nav-wrap .mobile-nav label:hover {
+          background: none;
+          -webkit-transform: scale(1);
+          -ms-transform: scale(1);
+          transform: scale(1); }
+        .mobile-nav-wrap .mobile-nav label svg {
+          position: relative;
+          height: 40px;
+          width: 40px;
+          float: left; }
+          .mobile-nav-wrap .mobile-nav label svg path {
+            fill: white; }
+        .mobile-nav-wrap .mobile-nav label h2 {
+          margin: 12px 0px 0px 36px;
+          padding: 0;
+          display: inline-block;
+          background: none;
+          color: white; }
+        .mobile-nav-wrap .mobile-nav label .garai-mobile-logo {
+          opacity: 1;
+          position: fixed;
+          top: 0;
+          right: 20px;
+          width: 85px;
+          padding: 10px 20px;
+          -webkit-transition: opacity 300ms cubic-bezier(0.895, 0.03, 0.685, 0.22);
+          transition: opacity 300ms cubic-bezier(0.895, 0.03, 0.685, 0.22);
+          background: pink; }
+          .mobile-nav-wrap .mobile-nav label .garai-mobile-logo svg {
+            position: relative;
+            height: 42px;
+            width: 85px; }
+            .mobile-nav-wrap .mobile-nav label .garai-mobile-logo svg path {
+              fill: white; }
+    .mobile-nav-wrap input {
+      display: none; }
+      .mobile-nav-wrap input:checked + .mobile-nav {
+        left: 220px; }
+        .mobile-nav-wrap input:checked + .mobile-nav label .garai-mobile-logo {
+          opacity: 0; }
+
+  .nav-wrap {
+    display: block;
+    width: 180px;
+    margin: 0;
+    padding: 0; }
+    .nav-wrap .navbar {
+      display: block;
+      position: relative;
+      top: 0; }
+      .nav-wrap .navbar .szoveg-wrap label {
+        width: 180px;
+        padding: 10px 20px;
+        background: #5486f5;
+        font-weight: 700;
+        font-size: 20px;
+        text-align: left; }
+        .nav-wrap .navbar .szoveg-wrap label:hover {
+          padding: 10px 20px;
+          background: #86b0ff; }
+      .nav-wrap .navbar input:checked + .szoveg-wrap .tartalom {
+        position: fixed;
+        top: 110px;
+        right: 0;
+        bottom: 80px;
+        left: 0;
+        z-index: 0; }
+      .nav-wrap .navbar input:checked + .szoveg-wrap label {
+        background: #134ac3;
+        background-image: -webkit-gradient(linear, left top, left bottom, color-stop(50%, transparent), color-stop(90%, transparent), color-stop(90%, #fa063e), color-stop(90%, #00208b));
+        background-image: -webkit-linear-gradient(top, transparent 50%, transparent 90%, #fa063e 90%, #00208b 90%);
+        background-image: linear-gradient(to bottom, transparent 50%, transparent 90%, #fa063e 90%, #00208b 90%);
+        color: white;
+        z-index: 500; }
+
+  .row2 .sidenav {
+    top: 130px;
+    overflow: visible; }
+    .row2 .sidenav .szolgdiv {
+      position: relative;
+      z-index: 110; }
+    .row2 .sidenav .szoveg-wrap label {
+      position: relative;
+      text-align: left;
+      line-height: 10px;
+      padding-left: 40px;
+      width: 160px;
+      background: #148000;
+      z-index: 110; }
+    .row2 .sidenav .szoveg-wrap .tartalom {
+      top: -130px; }
+
+  .mobile-nav-wrap .mobile-nav {
+    display: block; }
+  .mobile-nav-wrap input:checked + .nav-wrap {
+    position: relative;
+    left: -100px; }
+  .mobile-nav-wrap input:checked + .row2 {
+    position: relative;
+    left: -100px; } }
+.energia {
+  position: relative;
+  width: auto; }
+  .energia p, .energia h3 {
+    display: block;
+    width: 100%;
+    text-align: center; }
+
+footer {
+  display: block;
+  position: fixed;
+  right: 0;
+  bottom: 0px;
+  left: 0;
+  height: 80px;
+  background-image: url(img/technical-security-systems_csik.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 100%;
+  -webkit-background-size: cover;
+  background-size: cover;
+  z-index: 400; }
+
+.clearfix {
+  display: inline-block; }
+
+/* Hides from IE-mac \ */
+* html .clearfix {
+  height: 1%; }
+
+.clearfix {
+  display: block; }
+
+/* End hide from IE-mac */
+/* @end */

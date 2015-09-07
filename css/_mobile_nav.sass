@@ -1,0 +1,121 @@
+.container
+    height: 200vh
+label
+    &:hover
+        transform: scale(1)
+.mobile-nav-wrap
+    display: block
+    +position(absolute, 0 0 null null)
+    .mobile-nav
+        display: none
+        +position(fixed, 0 null null 20px)
+        +size(40px)
+        padding: 10px
+        z-index: 40
+        +transition(all 300ms $ease-in-quart)
+        label
+            +size(130px 40px)
+            display: block
+            cursor: pointer
+            padding: 5px
+            //background: pink
+            &:hover
+                background: none
+                transform: scale(1)
+            svg
+                position: relative
+                +size(40px)
+                float: left
+                path
+                    fill: white
+            h2
+                margin: 12px 0px 0px 36px
+                padding: 0
+                display: inline-block
+                background: none
+                color: white
+            .garai-mobile-logo
+                opacity: 1
+                +position(fixed, 0 20px null null)
+                width: 85px
+                padding: 10px 20px
+                +transition(opacity 300ms $ease-in-quart)
+                background: pink
+                svg
+                    position: relative
+                    +size(85px 42px)
+                    //float: left
+                    path
+                        fill: white
+    input
+        display: none
+        &:checked + .mobile-nav
+            left: 220px
+            label
+                //background: rgba(19, 74, 195, 0.76)
+                .garai-mobile-logo
+                    opacity: 0
+        
+// fönav --------------------
+.nav-wrap 
+    display: block
+    //display: none
+    width: 180px
+    margin: 0
+    padding: 0
+    .navbar 
+        display: block
+        +position(relative, 0 null null null)
+        
+        .szoveg-wrap
+            label
+                width: 180px
+                padding: 10px 20px
+                background: $alapszin
+                font-weight: 700
+                font-size: 20px
+                text-align: left
+                &:hover
+                    padding: 10px 20px
+                    background: #86b0ff
+        input
+            &:checked + .szoveg-wrap
+                .tartalom
+                    +position(fixed, $navtop 0 $footer 0)
+                    z-index: 0
+                label
+                    background: rgb(19, 74, 195)
+                    background-image: linear-gradient(to bottom, transparent 50%, transparent 90%, rgb(250, 6, 62) 90%, rgb(0, 32, 139) 90%)
+                    color: white
+                    z-index: 500
+// sidenav --------------------
+.row2
+    //display: none
+    .sidenav
+        top: 130px
+        overflow: visible
+        .szolgdiv
+            position: relative
+            z-index: 110
+        .szoveg-wrap
+            label
+                position: relative
+                text-align: left
+                line-height: 10px
+                padding-left: 40px
+                width: 160px
+                background: #148000
+                z-index: 110
+            .tartalom
+                top: -130px
+                
+.mobile-nav-wrap
+    .mobile-nav
+        display: block
+    input
+        &:checked + .nav-wrap
+            position: relative
+            left: -100px
+        &:checked + .row2
+            position: relative
+            left: -100px

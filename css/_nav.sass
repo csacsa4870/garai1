@@ -1,0 +1,270 @@
+.tartalom
+    display: block
+    overflow-y: auto
+    overflow-x: hidden
+    border-left: 1px solid $alapszin
+    opacity: 0
+    +transform(scaleY(5.5) translateY(-1500px))
+    color: black
+    padding: 0 0 20px 15px
+    text-align: left
+    font-weight: 300
+    +transition(all 300ms $ease-in-quart)
+    z-index: 0
+label
+    font-family: 'Roboto Condensed', sans-serif
+    border-bottom: 0px
+    +transition(all 100ms ease)
+    display: block
+    width: 180px
+    text-align: center
+    cursor: pointer
+    //background: transparentize($alapszin, 0.8)
+    color: rgba(white, 0.8)
+    z-index: 5
+    font:
+        weight: 700
+        size: 16px
+    padding: 10px 20px
+    //margin-bottom: 1px
+    &:hover
+        transform: scale(1.04)
+        background: transparentize(#86b0ff, 0.2)
+        z-index: 10
+        color: white
+        //padding: 15px 20px
+
+input
+    display: none
+    &:checked + .szoveg-wrap
+        .tartalom
+            opacity: 1
+            +transform(scaleY(1) translateY(0px))
+            z-index: 100
+        label
+            background: rgba(19, 74, 195, 0.76)
+            background-image: linear-gradient(to bottom, transparent 50%, transparent 90%, rgb(250, 6, 62) 90%, rgb(0, 32, 139) 90%)
+            color: white
+            z-index: 500
+            
+nav
+    +position(fixed, 0 0 null 0)
+    height: $navtop
+    background:
+        image: url(img/technical-security-systems_csik.jpg)
+        repeat: no-repeat
+        position: 50% 25%
+        size: cover
+    z-index: 40
+    
+// fönav --------------------
+.nav-wrap
+    display: flex
+    +justify-content(center)
+    align-items: flex-end
+    height: $navtop
+    margin: 0 auto
+    max-width: 900px
+    //background: $alapszin
+    .garai-logo
+        +position(fixed, 0 50px null null)
+        +size($navtop auto)
+        padding: 4px 20px
+        z-index: 41
+        label
+            +position(absolute, 0 0 0 0)
+            +size($navtop auto)
+            padding: 0px
+            margin: 9px auto
+            background: none
+            &:hover
+                padding: 0px
+                transform: scale(1)
+            svg
+                +size($navtop auto)
+                path
+                    fill: white
+                    +transition(all 100ms ease)
+                &:hover
+                    path
+                        fill: #001A5D
+    .navbar
+        display: flex
+        width: 100%
+        .szoveg-wrap
+            flex: 1 1 auto
+            label
+                width: 100%
+                position: relative
+                padding: 10px 0
+                font-size: 20px
+                line-height: 20px
+                z-index: 90
+                &:hover
+                    //background: #86b0ff
+                    position: relative
+                    padding: 10px 4px
+                    z-index: 100
+            .tartalom
+                +position(absolute, $navtop 0 $footer 230px)
+                //+size(calc(100%-230px) 100%)
+                z-index: 14
+// sidenav --------------------
+.row2
+    position: relative
+    +size(100%)
+    .sidenav-column
+        +position(relative)
+        +size(220px 100%)
+        z-index: 1
+        background: $alapszin
+    .sidenav
+        +position(relative, 0 null null null)
+        +size(100%)
+        z-index: 5
+        overflow: hidden
+        .szolgdiv
+            font-family: 'Roboto Condensed', sans-serif
+            //display: block
+            width: 180px
+            text-align: center
+            background: $szurke
+            color: rgba(white, 0.8)
+            z-index: 5
+            font:
+                weight: 700
+                size: 18px
+            padding: 10px 20px
+        .szoveg-wrap
+            label
+                background: $alapszin
+                &:hover
+                    background: #86b0ff
+            .tartalom
+                margin-bottom: $navtop
+                +position(absolute, 0px 0 $footer 230px)
+        input
+            display: none
+            &:checked + .szoveg-wrap
+                label
+                    background: #134ac3
+                    background-image: linear-gradient(to bottom, transparent 50%, transparent 90%, rgb(250, 6, 62) 90%, rgb(0, 32, 139) 90%)
+                
+.felsorolas
+    p
+        &::before
+            content: '- '
+        text-align: left
+        text-indent: -9px
+        font-weight: 400
+        padding-left: 20px
+    h3
+        &::before
+            content: '- '
+.location
+    position: relative
+    display: block
+    width: 500px
+    margin: 0 auto
+    +clearfix
+    .loc-icon
+        +size(50px)
+        +position(relative, -10px 0 0 0)
+        margin-left: 10px
+        background: $alapszin
+        background: $alapszin
+        border-radius: 50%
+        float: left
+        img
+            +position(absolute, 10px 0 0 10px)
+            +size(30px)
+    p
+        display: block
+        height: 40px
+        background: transparentize($alapszin, 0.7)
+        //text-align: center
+        font-weight: 400
+        padding-top: 5px
+        margin-bottom: 20px
+        &:last-child
+            margin-bottom: 0px
+.video-container
+    position: relative
+    padding-bottom: 56.25%
+    padding-top: 30px
+    height: 0
+    overflow: hidden
+    iframe, object, embed 
+        position: absolute
+        top: 0
+        left: 0
+        width: 100%
+        height: 100%
+
+.mobile-nav-wrap
+    display: none
+@media (max-height: 690px)
+    .row2
+        .sidenav-column
+            width: 150px
+        .sidenav
+            .szolgdiv
+                width: 110px
+                font-size: 15px
+            .szoveg-wrap
+                label
+                    padding: 7px 0px
+                    font-size: 14px
+                    width: 150px
+                .tartalom
+                    +position(absolute, 0px 0 $footer 160px)
+    .nav-wrap 
+        .navbar 
+            .szoveg-wrap 
+                .tartalom
+                    +position(absolute, $navtop 0 $footer 160px)
+
+@media (max-width: 900px)
+    .container
+        overflow: hidden
+
+@media (max-width: 830px)
+    .nav-wrap
+        .navbar
+            .szoveg-wrap
+                label
+                    padding: 20px 0
+                    font-size: 17px
+                    line-height: 20px
+                    z-index: 90
+
+@media (max-width: 830px)
+    .nav-wrap
+        .navbar
+            .szoveg-wrap
+                label
+                    padding: 20px 0
+                    font-size: 15px
+                    line-height: 20px
+                    z-index: 90
+
+
+@media (max-width: 650px)
+    .garai-logo
+        display: none
+    .row2
+        .sidenav
+            .szoveg-wrap
+                .tartalom
+                    left: 0
+                    border-left: 0px
+                    padding: 0px 20px 20px
+        .sidenav-column
+            display: none
+    .nav-wrap 
+        .navbar 
+            .szoveg-wrap 
+                .tartalom
+                    left: 0
+                    border-left: 0px
+                    padding: 0px 20px 20px

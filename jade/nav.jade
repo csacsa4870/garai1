@@ -1,0 +1,173 @@
+.mobile-nav-wrap
+    input(type='checkbox', id='mobile-nav' name='', value='' checked='checked')
+    .mobile-nav
+        label(for='mobile-nav')
+            include mobile-nav-icon
+            h2 Menü
+            .garai-mobile-logo
+                include garai-logo2
+        
+//főnav
+.nav-wrap
+    .garai-logo
+        label(for='kezdolap')
+            include garai-logo2
+    .navbar
+        input(type='radio', id='kezdolap' name='nav', value='')
+        .szoveg-wrap
+            label(for='kezdolap')
+                | Kezdőlap
+            .tartalom
+
+        input(type='radio', id='cegismerteto' name='nav', value='')
+        .szoveg-wrap
+            label(for='cegismerteto')
+                | Cégismertető
+            .tartalom
+                include cegismerteto
+
+        input(type='radio', id='tevekenyseg' name='nav', value='')
+        .szoveg-wrap
+            label(for='tevekenyseg')
+                | Tevékenység
+            .tartalom
+                include tevekenyseg
+
+        input(type='radio', id='engedelyek' name='nav', value='')
+        .szoveg-wrap
+            label(for='engedelyek')
+                | Engedélyek
+            .tartalom
+                include engedelyek
+
+        input(type='radio', id='referenciak' name='nav', value='')
+        .szoveg-wrap
+            label(for='referenciak')
+                | Referenciák
+            .tartalom
+                include referenciak
+
+        input(type='radio', id='elerhetoseg' name='nav', value='')
+        .szoveg-wrap
+            label(for='elerhetoseg')
+                | Elérhetőség
+            .tartalom.eler
+                #map_canvas
+                .location
+                    .loc-icon
+                        img(src="img/location.svg")
+                    p 6800 Hódmezővásárhely, Kodály Zoltán u. 1/C 1 em. 4
+                    .loc-icon
+                        img(src="img/telephone.svg")
+                    p Telefon: (30) 38-38-715
+                    .loc-icon
+                        img(src="img/telephone_fax.svg")
+                    p Telefon/fax: (62) 534-420
+                    .loc-icon
+                        img(src="img/mail.svg")
+                    p email: 
+                        a(href="mailto:garai@garai1.hu") garai@garai1.hu
+                        | , 
+                        a(href="mailto:garai@delfin.hu") garai@delfin.hu
+
+
+//oldalnav
+.row2
+    .sidenav
+        .szolgdiv
+            | Szolgáltatásaink:
+
+        input(type='radio', id='riaszto' name='nav', value='' checked='checked')
+        .szoveg-wrap
+            label(for='riaszto')
+                | Riasztórendszer
+            .tartalom
+                include riaszto
+
+        input(type='radio', id='tuzjelzo' name='nav', value='')
+        .szoveg-wrap
+            label(for='tuzjelzo')
+                | Tűzjelző rendszer
+            .tartalom
+                include tuzjelzo
+
+        input(type='radio', id='videorendszerek' name='nav', value='')
+        .szoveg-wrap
+            label(for='videorendszerek')
+                | Video rendszer
+            .tartalom
+                include videorendszerek
+
+        input(type='radio', id='kaputelefon' name='nav', value='')
+        .szoveg-wrap
+            label(for='kaputelefon')
+                | Kaputelefon
+            .tartalom
+                h2 Kaputelefon
+                hr
+                p Az audio és video kaputelefonok lehetővé teszik egy adott objektumnál (pl. lakóépület, irodaház, sportlétesítmények, üzemi porták, zárt intézmények stb.) az ellenőrzött személyi mozgást, regisztrálást, ezáltal szintén jelentős vagyonvédelmi feladatokat látnak el.
+
+        input(type='radio', id='belepteto' name='nav', value='')
+        .szoveg-wrap
+            label(for='belepteto')
+                | Beléptető rendszer
+            .tartalom
+                include belepteto
+        input(type='radio', id='hangositas' name='nav', value='')
+        .szoveg-wrap
+            label(for='hangositas')
+                | Hangosítás
+            .tartalom
+                h2 Hangosítás
+                hr
+                p A weblapunk készítés és folyamatos fejlesztés alatt van. Ez az oldal még nem készült el, elnéző türelmét kérjük!
+
+        input(type='radio', id='gyengearamu' name='nav', value='')
+        .szoveg-wrap
+            label(for='gyengearamu')
+                | Gyengeáramú hálózat
+            .tartalom
+                h2 Gyengeáramú&nbsp;hálózat
+                hr
+                p A weblapunk készítés és folyamatos fejlesztés alatt van. Ez az oldal még nem készült el, elnéző türelmét kérjük!
+
+        input(type='radio', id='tavfelugyelet' name='nav', value='')
+        .szoveg-wrap
+            label(for='tavfelugyelet')
+                | Távfelügyelet
+            .tartalom
+                include tavfelugyelet
+
+        input(type='radio', id='villanyszereles' name='nav', value='')
+        .szoveg-wrap
+            label(for='villanyszereles')
+                | Villanyszerelés
+            .tartalom
+                include villanyszereles
+
+        input(type='radio', id='villamos-felulvizsgalat' name='nav', value='')
+        .szoveg-wrap
+            label(for='villamos-felulvizsgalat')
+                | Villamos felülvizsgálat
+            .tartalom
+                h2 Villamos&nbsp;felülvizsgálat
+                hr
+                p A weblapunk készítés és folyamatos fejlesztés alatt van. Ez az oldal még nem készült el, elnéző türelmét kérjük!
+
+        input(type='radio', id='energia-szaktanacsadas' name='nav', value='')
+        .szoveg-wrap
+            label(for='energia-szaktanacsadas')
+                | Energia szaktanácsadás
+            .tartalom
+                include energia-szaktanacsadas
+
+        input(type='radio', id='reklamfilm' name='nav', value='')
+        .szoveg-wrap
+            label(for='reklamfilm')
+                | Reklámfilm
+            .tartalom
+                .video-container
+                    iframe(width="640" height="480" src="https://www.youtube.com/embed/XBmvMi97EJU?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen)
+        .sidenav-column
+
+
