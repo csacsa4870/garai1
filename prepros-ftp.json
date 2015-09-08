@@ -1,15 +1,7 @@
 {
   ".DS_Store": {
     "size": 15364,
-    "date": "2015-08-23T23:38:04.104Z"
-  },
-  "css/mixins.css": {
-    "size": 0,
-    "date": "2015-08-23T23:38:04.325Z"
-  },
-  "css/nav.css": {
-    "size": 557,
-    "date": "2015-08-23T23:38:04.592Z"
+    "date": "2015-09-08T21:55:41.257Z"
   },
   "html/energia-szaktanacsadas.html": {
     "size": 464,
@@ -32,8 +24,8 @@
     "date": "2015-08-23T23:38:05.792Z"
   },
   "index.html": {
-    "size": 28699,
-    "date": "2015-08-25T00:01:34.687Z"
+    "size": 59580,
+    "date": "2015-09-08T21:55:41.624Z"
   },
   "jade/.DS_Store": {
     "size": 6148,
@@ -43,32 +35,1028 @@
     "size": 1381,
     "date": "2015-08-23T23:38:06.562Z"
   },
-  "sass/mixins.css": {
-    "size": 39,
-    "date": "2015-08-23T23:38:06.792Z"
-  },
-  "sass/mixins.css.map": {
-    "size": 137,
-    "date": "2015-08-23T23:38:06.992Z"
-  },
-  "sass/nav.css": {
-    "size": 841,
-    "date": "2015-08-23T23:38:07.225Z"
-  },
-  "sass/nav.css.map": {
-    "size": 747,
-    "date": "2015-08-23T23:38:07.458Z"
-  },
   "style.css": {
-    "size": 4228,
-    "date": "2015-08-25T00:01:35.148Z"
+    "size": 16744,
+    "date": "2015-09-08T21:55:42.265Z"
   },
   "style.css.map": {
-    "size": 4669,
-    "date": "2015-08-25T00:01:35.450Z"
+    "size": 20512,
+    "date": "2015-09-08T21:55:42.591Z"
   },
   "prepros-ftp.json": {
-    "size": 1537,
-    "date": "2015-08-25T00:01:34.912Z"
+    "size": 30668,
+    "date": "2015-09-08T22:01:46.819Z"
+  },
+  ".git/COMMIT_EDITMSG": {
+    "size": 5,
+    "date": "2015-09-08T21:54:08.136Z"
+  },
+  ".git/FETCH_HEAD": {
+    "size": 211,
+    "date": "2015-09-08T22:01:46.417Z"
+  },
+  ".git/HEAD": {
+    "size": 25,
+    "date": "2015-09-08T21:54:08.595Z"
+  },
+  ".git/ORIG_HEAD": {
+    "size": 41,
+    "date": "2015-09-08T21:54:08.861Z"
+  },
+  ".git/config": {
+    "size": 383,
+    "date": "2015-09-08T21:54:09.095Z"
+  },
+  ".git/description": {
+    "size": 73,
+    "date": "2015-09-08T21:54:09.328Z"
+  },
+  ".git/hooks/applypatch-msg.sample": {
+    "size": 452,
+    "date": "2015-09-08T21:54:09.564Z"
+  },
+  ".git/hooks/commit-msg.sample": {
+    "size": 896,
+    "date": "2015-09-08T21:54:09.829Z"
+  },
+  ".git/hooks/post-update.sample": {
+    "size": 189,
+    "date": "2015-09-08T21:54:10.025Z"
+  },
+  ".git/hooks/pre-applypatch.sample": {
+    "size": 398,
+    "date": "2015-09-08T21:54:10.261Z"
+  },
+  ".git/hooks/pre-commit.sample": {
+    "size": 1642,
+    "date": "2015-09-08T21:54:10.494Z"
+  },
+  ".git/hooks/pre-push.sample": {
+    "size": 1352,
+    "date": "2015-09-08T21:54:10.728Z"
+  },
+  ".git/hooks/pre-rebase.sample": {
+    "size": 4951,
+    "date": "2015-09-08T21:54:11.029Z"
+  },
+  ".git/hooks/prepare-commit-msg.sample": {
+    "size": 1239,
+    "date": "2015-09-08T21:54:11.261Z"
+  },
+  ".git/hooks/update.sample": {
+    "size": 3611,
+    "date": "2015-09-08T21:54:11.528Z"
+  },
+  ".git/index": {
+    "size": 13032,
+    "date": "2015-09-08T21:54:11.806Z"
+  },
+  ".git/info/exclude": {
+    "size": 240,
+    "date": "2015-09-08T21:54:12.014Z"
+  },
+  ".git/logs/HEAD": {
+    "size": 2417,
+    "date": "2015-09-08T21:54:12.241Z"
+  },
+  ".git/logs/refs/heads/gh-pages": {
+    "size": 805,
+    "date": "2015-09-08T21:54:12.477Z"
+  },
+  ".git/logs/refs/heads/master": {
+    "size": 430,
+    "date": "2015-09-08T21:54:12.711Z"
+  },
+  ".git/logs/refs/remotes/origin/gh-pages": {
+    "size": 788,
+    "date": "2015-09-08T21:54:12.944Z"
+  },
+  ".git/logs/refs/remotes/origin/master": {
+    "size": 284,
+    "date": "2015-09-08T21:54:13.177Z"
+  },
+  ".git/logs/refs/stash": {
+    "size": 173,
+    "date": "2015-09-08T21:54:13.408Z"
+  },
+  ".git/objects/01/9db0ed3ded247679e674c9a8f7359067c3e056": {
+    "size": 478,
+    "date": "2015-09-08T21:54:13.641Z"
+  },
+  ".git/objects/02/67ae3d31977614a67fdff3498ffed653479788": {
+    "size": 164,
+    "date": "2015-09-08T21:54:13.876Z"
+  },
+  ".git/objects/04/2f3471e18e35eec43d27e8097fe930419ee4ad": {
+    "size": 119,
+    "date": "2015-09-08T21:54:14.129Z"
+  },
+  ".git/objects/04/ca578028bb3826cfbe0a845d9a3f809627e553": {
+    "size": 144,
+    "date": "2015-09-08T21:54:14.343Z"
+  },
+  ".git/objects/05/ab29d740dec959b8f0904dee850c39c7c38309": {
+    "size": 3180,
+    "date": "2015-09-08T21:54:14.610Z"
+  },
+  ".git/objects/07/d30b6cf956e8eacd45532a92a0e897ca47a188": {
+    "size": 165,
+    "date": "2015-09-08T21:54:14.841Z"
+  },
+  ".git/objects/0a/1b9df07e6f22cd64c36dbd7008ee91e02da043": {
+    "size": 212,
+    "date": "2015-09-08T21:54:15.078Z"
+  },
+  ".git/objects/0a/896051144dafc1b36b2033d84c9ee4cf519423": {
+    "size": 145,
+    "date": "2015-09-08T21:54:15.310Z"
+  },
+  ".git/objects/0a/c941e76b972e63ead62c7804929025f11c61a1": {
+    "size": 215,
+    "date": "2015-09-08T21:54:15.542Z"
+  },
+  ".git/objects/0b/fc738ddcef827e84fa7782510224aa3abdd42b": {
+    "size": 82,
+    "date": "2015-09-08T21:54:15.844Z"
+  },
+  ".git/objects/0c/9b1570a7ded26d4d26f1f79becf4156fd50eed": {
+    "size": 1853,
+    "date": "2015-09-08T21:54:16.075Z"
+  },
+  ".git/objects/0d/82cc908f5f91666b9ff3a5aadf862294db4cf3": {
+    "size": 184,
+    "date": "2015-09-08T21:54:16.275Z"
+  },
+  ".git/objects/0e/4deb80f3c2fe3f3b807bdfa8fa4822d39acaa3": {
+    "size": 149,
+    "date": "2015-09-08T21:54:16.509Z"
+  },
+  ".git/objects/0e/a2d4b71d40e70d849cf0bcab1a2782f37d80cb": {
+    "size": 348,
+    "date": "2015-09-08T21:54:16.840Z"
+  },
+  ".git/objects/10/40e982c530a048c87f7409671b58d6b84f7173": {
+    "size": 776,
+    "date": "2015-09-08T21:54:17.076Z"
+  },
+  ".git/objects/10/53ff385a6e60ce0fa0e71f92cfa2b4c651cb6b": {
+    "size": 209,
+    "date": "2015-09-08T21:54:17.292Z"
+  },
+  ".git/objects/11/313d66f1cf87fa096fdb5b87dbba3be98fbc14": {
+    "size": 271,
+    "date": "2015-09-08T21:54:17.531Z"
+  },
+  ".git/objects/11/5b6ed1813612cf23f5144f737cb37473864556": {
+    "size": 365687,
+    "date": "2015-09-08T21:54:18.107Z"
+  },
+  ".git/objects/12/900de4caf2881e1898191c61f1e9d6fe694ef4": {
+    "size": 88,
+    "date": "2015-09-08T21:54:18.338Z"
+  },
+  ".git/objects/18/348b93ab04f9b84e60e6bd42a0aeda490f53b6": {
+    "size": 324,
+    "date": "2015-09-08T21:54:18.558Z"
+  },
+  ".git/objects/19/55aa2d8c8e62c3d6eb13085090238897ddaa77": {
+    "size": 1948,
+    "date": "2015-09-08T21:54:18.792Z"
+  },
+  ".git/objects/19/7792c81b87fa6c9153fbba1d95453d8aaf4cb5": {
+    "size": 199,
+    "date": "2015-09-08T21:54:19.025Z"
+  },
+  ".git/objects/19/e793ccb0f9d9e3015333cda3895551b2c848de": {
+    "size": 1250,
+    "date": "2015-09-08T21:54:19.291Z"
+  },
+  ".git/objects/1a/e232d5460ff5a867e7a05b56f94ce77446e31c": {
+    "size": 1989,
+    "date": "2015-09-08T21:54:19.525Z"
+  },
+  ".git/objects/1b/2a3c6ac90f5c41799019365e800bbd3661609b": {
+    "size": 6423,
+    "date": "2015-09-08T21:54:19.794Z"
+  },
+  ".git/objects/1e/b7a5451aec92b2243f8b4cf2d78d2f2121363a": {
+    "size": 696,
+    "date": "2015-09-08T21:54:20.025Z"
+  },
+  ".git/objects/1f/6586335c298bf864bb5e468a79f5d60b5af743": {
+    "size": 362,
+    "date": "2015-09-08T21:54:20.291Z"
+  },
+  ".git/objects/20/91054eca4d3f1c74399e373f655e6bb3095979": {
+    "size": 315,
+    "date": "2015-09-08T21:54:20.523Z"
+  },
+  ".git/objects/20/e5f1d4024c41ce3095e64e7b30d08ba7ad02ff": {
+    "size": 601,
+    "date": "2015-09-08T21:54:20.757Z"
+  },
+  ".git/objects/20/fa38812d406128828f4b1670aecafec8303ea6": {
+    "size": 622,
+    "date": "2015-09-08T21:54:21.025Z"
+  },
+  ".git/objects/21/c14aa4d7c5a14fff0a7c7ca2b425d72bd40dcc": {
+    "size": 1356,
+    "date": "2015-09-08T21:54:21.256Z"
+  },
+  ".git/objects/22/60019ac043eba9b562b5a6ecea334a4637eb2d": {
+    "size": 1618,
+    "date": "2015-09-08T21:54:21.492Z"
+  },
+  ".git/objects/25/ecd2477081b240eb16be5caa318fc3668eab6b": {
+    "size": 1992,
+    "date": "2015-09-08T21:54:21.724Z"
+  },
+  ".git/objects/27/8082ebc4bdc4789d23aaf262c50ad7db818514": {
+    "size": 793,
+    "date": "2015-09-08T21:54:21.991Z"
+  },
+  ".git/objects/27/99e04d04bd56a69fc8cf03f46cc8855a1e20b1": {
+    "size": 1969,
+    "date": "2015-09-08T21:54:22.224Z"
+  },
+  ".git/objects/2b/6f73138318bd2d6ff0838c1ea3bb2114d7b96f": {
+    "size": 551,
+    "date": "2015-09-08T21:54:22.457Z"
+  },
+  ".git/objects/2e/2f973f52c4410bb4b47a169097166d8074e178": {
+    "size": 167,
+    "date": "2015-09-08T21:54:22.723Z"
+  },
+  ".git/objects/2e/3381488d31527f22079906349b6fba67779908": {
+    "size": 273,
+    "date": "2015-09-08T21:54:22.958Z"
+  },
+  ".git/objects/33/b6e435eee2f98b2d77f85b39a25b5a0fde90c8": {
+    "size": 1978,
+    "date": "2015-09-08T21:54:23.192Z"
+  },
+  ".git/objects/38/39be6d01208abb369dbacb5043504cad3582c7": {
+    "size": 379,
+    "date": "2015-09-08T21:54:23.426Z"
+  },
+  ".git/objects/39/04fa020e260391a17501864e8efbb606a44725": {
+    "size": 213,
+    "date": "2015-09-08T21:54:23.647Z"
+  },
+  ".git/objects/3c/112f95418feb5fa936e0bf1f3e000d30e0c702": {
+    "size": 1233,
+    "date": "2015-09-08T21:54:23.908Z"
+  },
+  ".git/objects/3c/552ad7910bf882ce3552117fb22d4b2f5ef840": {
+    "size": 251,
+    "date": "2015-09-08T21:54:24.174Z"
+  },
+  ".git/objects/3c/785ed52739dd8c5f8e885b5648d620b73df86b": {
+    "size": 732,
+    "date": "2015-09-08T21:54:24.407Z"
+  },
+  ".git/objects/3c/adfbdd712448cc8daa2cc77e41b6575d3c4146": {
+    "size": 132,
+    "date": "2015-09-08T21:54:24.674Z"
+  },
+  ".git/objects/3d/ec27db82bbd689bcbd0f8c9faa8a01031e63e1": {
+    "size": 279,
+    "date": "2015-09-08T21:54:24.907Z"
+  },
+  ".git/objects/3e/f1d873b4183a62df9623c5373449b863eb3bb3": {
+    "size": 523,
+    "date": "2015-09-08T21:54:25.174Z"
+  },
+  ".git/objects/3f/44014bb64bc30f62f6d6172c3178c9ff7ad863": {
+    "size": 268,
+    "date": "2015-09-08T21:54:25.441Z"
+  },
+  ".git/objects/40/a5f006b2ba60dcdd8b7cc14644dd958dee90a1": {
+    "size": 351,
+    "date": "2015-09-08T21:54:25.671Z"
+  },
+  ".git/objects/41/6d43a9cfa8811dcd275a5d156724c63928356b": {
+    "size": 212,
+    "date": "2015-09-08T21:54:25.904Z"
+  },
+  ".git/objects/41/d5c79cc2f18917ed1cc8a4901919f0f24d0eea": {
+    "size": 2705,
+    "date": "2015-09-08T21:54:26.142Z"
+  },
+  ".git/objects/43/67935d5203fde2d4758b16ef4ae4ffc3756191": {
+    "size": 272,
+    "date": "2015-09-08T21:54:26.409Z"
+  },
+  ".git/objects/43/e5efc042d3140db8d3ed86dfd5543ad72811f8": {
+    "size": 519,
+    "date": "2015-09-08T21:54:26.642Z"
+  },
+  ".git/objects/44/9ba3a20bbdfefe137279bdf51902b9e90f6283": {
+    "size": 6339,
+    "date": "2015-09-08T21:54:26.943Z"
+  },
+  ".git/objects/47/10b782f6cc039b7d8f7d3fbe479b9efdc0e24f": {
+    "size": 215,
+    "date": "2015-09-08T21:54:27.139Z"
+  },
+  ".git/objects/47/beab30fe343ce8a970588eb0c98dd00f7855a9": {
+    "size": 4335,
+    "date": "2015-09-08T21:54:27.376Z"
+  },
+  ".git/objects/48/a8f77f9149ebb7eefe445c41a650b4147d7c2f": {
+    "size": 417,
+    "date": "2015-09-08T21:54:27.608Z"
+  },
+  ".git/objects/4a/ccbf387b68b884b34e3b1120fcd324e9b78e16": {
+    "size": 2131,
+    "date": "2015-09-08T21:54:27.878Z"
+  },
+  ".git/objects/4c/4512a79a38f4c29464b5727cf66cbbe18405b2": {
+    "size": 1073,
+    "date": "2015-09-08T21:54:28.107Z"
+  },
+  ".git/objects/4c/6afc5bb3977debc1929f917cf163bdce1e6c6a": {
+    "size": 148,
+    "date": "2015-09-08T21:54:28.341Z"
+  },
+  ".git/objects/4c/af20ed58b309116190c1155612ee157737431c": {
+    "size": 407,
+    "date": "2015-09-08T21:54:28.572Z"
+  },
+  ".git/objects/4d/32019c4323619f10ac0730cf2265c61ef33dfe": {
+    "size": 315,
+    "date": "2015-09-08T21:54:28.772Z"
+  },
+  ".git/objects/4e/dd208087ccf7bba013c1dd6e03e3261579cc38": {
+    "size": 4218,
+    "date": "2015-09-08T21:54:29.007Z"
+  },
+  ".git/objects/4f/d44f3399a9859dff2904ca67409f8b0bc3f27a": {
+    "size": 379,
+    "date": "2015-09-08T21:54:29.273Z"
+  },
+  ".git/objects/50/ee2218cc6276cea7018cee175fa32e244971e3": {
+    "size": 910,
+    "date": "2015-09-08T21:54:29.507Z"
+  },
+  ".git/objects/53/0acd4a1916cd0f461d18cb4d3e99e0847c3255": {
+    "size": 20466,
+    "date": "2015-09-08T21:54:29.820Z"
+  },
+  ".git/objects/53/3085453e30246000e3bcb78fe86cb3f0170a3a": {
+    "size": 934,
+    "date": "2015-09-08T21:54:30.020Z"
+  },
+  ".git/objects/54/44d8085f57bf06d0e9ac2a39a23a4f4d9cc4de": {
+    "size": 431,
+    "date": "2015-09-08T21:54:30.238Z"
+  },
+  ".git/objects/56/36dd61c78b067175c0f4f0628a92e48f623571": {
+    "size": 160,
+    "date": "2015-09-08T21:54:30.456Z"
+  },
+  ".git/objects/56/82fd097a5a266bec74339143a2cc4b8dc0fc60": {
+    "size": 125,
+    "date": "2015-09-08T21:54:30.721Z"
+  },
+  ".git/objects/56/c6030b7416ef3c8ab257e9ee7d1c1ea410d6a3": {
+    "size": 579,
+    "date": "2015-09-08T21:54:30.988Z"
+  },
+  ".git/objects/57/128f422ab1b5072b7ce18cd6c4ddde52496f2d": {
+    "size": 266,
+    "date": "2015-09-08T21:54:31.222Z"
+  },
+  ".git/objects/57/65676838de972fb25e17d166e10488f33c5af1": {
+    "size": 320,
+    "date": "2015-09-08T21:54:31.456Z"
+  },
+  ".git/objects/58/194788b0ef82ac21114daf2b670e1f28fc160d": {
+    "size": 159,
+    "date": "2015-09-08T21:54:31.721Z"
+  },
+  ".git/objects/58/26e789b79c61700e699e707ed27febf08118bc": {
+    "size": 227,
+    "date": "2015-09-08T21:54:31.972Z"
+  },
+  ".git/objects/58/85c70602666e13d706518ad1e4d8149ddab0a8": {
+    "size": 200,
+    "date": "2015-09-08T21:54:32.203Z"
+  },
+  ".git/objects/58/d12d7f28dff1b22679e8cca07857e3580461b7": {
+    "size": 1960,
+    "date": "2015-09-08T21:54:32.440Z"
+  },
+  ".git/objects/5e/3c92f3588289fd25836b6831abf4657546b7cc": {
+    "size": 518,
+    "date": "2015-09-08T21:54:34.245Z"
+  },
+  ".git/objects/5e/bc2a8b77fd30395887ab2b9409873a6b48ce27": {
+    "size": 2670,
+    "date": "2015-09-08T21:54:34.492Z"
+  },
+  ".git/objects/60/b19fff81e6694102ce1aef56c645a93cda747b": {
+    "size": 20472,
+    "date": "2015-09-08T21:54:34.827Z"
+  },
+  ".git/objects/61/5e015987c494826c54f603f423f1f1124b904d": {
+    "size": 693,
+    "date": "2015-09-08T21:54:35.055Z"
+  },
+  ".git/objects/62/4d2ad30d85e8ef711eccc0e05b97380e4c9a37": {
+    "size": 485,
+    "date": "2015-09-08T21:54:35.292Z"
+  },
+  ".git/objects/62/c4343cf940a47e239cc0ea17605bf5a4e71dfa": {
+    "size": 161,
+    "date": "2015-09-08T21:54:35.520Z"
+  },
+  ".git/objects/64/6bf10a3847f1d55851139639684082630a42cb": {
+    "size": 216,
+    "date": "2015-09-08T21:54:35.755Z"
+  },
+  ".git/objects/64/856a925a9479ee85048ee73892e4d558da823e": {
+    "size": 296,
+    "date": "2015-09-08T21:54:35.988Z"
+  },
+  ".git/objects/65/7d2de860d62c0c060284a1fd5f99fc0eda9965": {
+    "size": 214,
+    "date": "2015-09-08T21:54:36.219Z"
+  },
+  ".git/objects/66/1789ab49701ea13ed1ff38f52871e792ce73bf": {
+    "size": 197,
+    "date": "2015-09-08T21:54:36.419Z"
+  },
+  ".git/objects/67/4f4e5f6e9fbed877eeabc42226659270824f50": {
+    "size": 352,
+    "date": "2015-09-08T21:54:36.654Z"
+  },
+  ".git/objects/69/3aae2894f62b99eb0249eb3dc5a6c03e2f9a07": {
+    "size": 4199,
+    "date": "2015-09-08T21:54:36.890Z"
+  },
+  ".git/objects/69/74d93905ebac0683c2a546d40a7a1f6ddd6c68": {
+    "size": 166,
+    "date": "2015-09-08T21:54:37.154Z"
+  },
+  ".git/objects/69/aeda5327e2a2ce9ead82d186975c2a923b0b2e": {
+    "size": 378,
+    "date": "2015-09-08T21:54:37.422Z"
+  },
+  ".git/objects/6a/3a83d4b97fda11e757e4855d268b7a5491ffc7": {
+    "size": 645,
+    "date": "2015-09-08T21:54:37.652Z"
+  },
+  ".git/objects/6b/4640d47e02bad4bcd43bf4e3a5dc5cf1633aa9": {
+    "size": 149691,
+    "date": "2015-09-08T21:54:38.141Z"
+  },
+  ".git/objects/6c/5f3e81047c34734370cf4a4ebefd5b94c8a794": {
+    "size": 216,
+    "date": "2015-09-08T21:54:41.489Z"
+  },
+  ".git/objects/6d/5cb6e1f0f7655615adadbd0ad4c4d4a09cace1": {
+    "size": 608,
+    "date": "2015-09-08T21:54:41.718Z"
+  },
+  ".git/objects/6e/d19ab580d4be4eefd8e240d689bb745db60502": {
+    "size": 431,
+    "date": "2015-09-08T21:54:41.949Z"
+  },
+  ".git/objects/6e/e538db48cddee3a821f9da37c88b6cd380f796": {
+    "size": 893,
+    "date": "2015-09-08T21:54:42.183Z"
+  },
+  ".git/objects/6f/6ab36c4e8d5893160291effb7da04f828abb9c": {
+    "size": 367,
+    "date": "2015-09-08T21:54:42.418Z"
+  },
+  ".git/objects/70/20f44fbc19f422254bee89d00d6a7cfd6d40a6": {
+    "size": 183,
+    "date": "2015-09-08T21:54:42.682Z"
+  },
+  ".git/objects/71/4d92bc43dde0a629ecffde6b1d4c6b39f96778": {
+    "size": 212,
+    "date": "2015-09-08T21:54:42.918Z"
+  },
+  ".git/objects/71/aa7df3da9b4638a0967d2fd3912810be673f4a": {
+    "size": 757,
+    "date": "2015-09-08T21:54:43.167Z"
+  },
+  ".git/objects/72/985886a9e9b6823240fb528a8fe99ec41271bc": {
+    "size": 214,
+    "date": "2015-09-08T21:54:43.417Z"
+  },
+  ".git/objects/73/b89f426838c9e02581c2b71fb3fb982dfa1997": {
+    "size": 418,
+    "date": "2015-09-08T21:54:43.656Z"
+  },
+  ".git/objects/74/04d534e1e0805932230c350b8ee1024f781844": {
+    "size": 317,
+    "date": "2015-09-08T21:54:43.917Z"
+  },
+  ".git/objects/77/3a0d7d84ed5ff3fcab1faa514695dc800f7b0a": {
+    "size": 522,
+    "date": "2015-09-08T21:54:44.159Z"
+  },
+  ".git/objects/78/736b35a82ffa0ed6f08743d489fcabf26cc665": {
+    "size": 409,
+    "date": "2015-09-08T21:54:44.417Z"
+  },
+  ".git/objects/79/dac852989747cad2c5361c3f6be4bb9da4033b": {
+    "size": 1261,
+    "date": "2015-09-08T21:54:44.617Z"
+  },
+  ".git/objects/7a/691253d4ff494c215dd361671a4eb221d960ff": {
+    "size": 404,
+    "date": "2015-09-08T21:54:44.850Z"
+  },
+  ".git/objects/7b/4c19349d251f5649bb9df6f3eaa73ab78ccde5": {
+    "size": 2095,
+    "date": "2015-09-08T21:54:45.081Z"
+  },
+  ".git/objects/7e/1a251ca04bd0a4a96e90a7804e41e3228bd4c8": {
+    "size": 181,
+    "date": "2015-09-08T21:54:45.317Z"
+  },
+  ".git/objects/7f/17586c931eb25ebeb1fcbcee1a3050e04337fc": {
+    "size": 469,
+    "date": "2015-09-08T21:54:58.032Z"
+  },
+  ".git/objects/7f/ebbd7513d0ecefdc323287dd1923ef28c5303c": {
+    "size": 264,
+    "date": "2015-09-08T21:54:58.243Z"
+  },
+  ".git/objects/81/bdd9fe32f84f98295cfe0482674ec1c860b43d": {
+    "size": 320,
+    "date": "2015-09-08T21:54:58.479Z"
+  },
+  ".git/objects/82/4238c351a60a8bb0aa3fbd524aa0cfc9aecb9e": {
+    "size": 53,
+    "date": "2015-09-08T21:54:58.678Z"
+  },
+  ".git/objects/84/a86d4742d79bbb1067786ee04ab742eaf33796": {
+    "size": 572,
+    "date": "2015-09-08T21:54:58.912Z"
+  },
+  ".git/objects/85/26e2d8a5cea223cbe215809658b7ff7e12e029": {
+    "size": 1509,
+    "date": "2015-09-08T21:54:59.146Z"
+  },
+  ".git/objects/8a/1ed9cd08aff1c64e7fe7d8fb413223d2722d3d": {
+    "size": 503,
+    "date": "2015-09-08T21:54:59.379Z"
+  },
+  ".git/objects/8a/af2c6d2812f99dd3e7a994f0a210bf43c370a1": {
+    "size": 273,
+    "date": "2015-09-08T21:54:59.612Z"
+  },
+  ".git/objects/8c/2d33c0eaf6ed0af1066be266c0dd80aacffbb6": {
+    "size": 1607,
+    "date": "2015-09-08T21:54:59.862Z"
+  },
+  ".git/objects/8c/390514d49a9c83a4634e0bc0bdfb6550e6ff92": {
+    "size": 151,
+    "date": "2015-09-08T21:55:00.160Z"
+  },
+  ".git/objects/8d/a076e28a16b971fd4a2476407252815a6b7dce": {
+    "size": 545,
+    "date": "2015-09-08T21:55:00.384Z"
+  },
+  ".git/objects/8e/e6509ff67461a103962838ebbc0366f268e5a8": {
+    "size": 231,
+    "date": "2015-09-08T21:55:00.629Z"
+  },
+  ".git/objects/8f/34cc80c72741e44f7009925370d019bfb696b3": {
+    "size": 120,
+    "date": "2015-09-08T21:55:00.893Z"
+  },
+  ".git/objects/92/22746ce152a92f9f559e900cbc965024f97def": {
+    "size": 248,
+    "date": "2015-09-08T21:55:01.129Z"
+  },
+  ".git/objects/92/d90ac3cca011895a94b3f9e920128286930017": {
+    "size": 319,
+    "date": "2015-09-08T21:55:01.344Z"
+  },
+  ".git/objects/94/852d69974265cc59b251b5c00ad206dadecd65": {
+    "size": 20648,
+    "date": "2015-09-08T21:55:01.692Z"
+  },
+  ".git/objects/95/9d43303a7d490d940d964c66fd0e819ffc5a74": {
+    "size": 145,
+    "date": "2015-09-08T21:55:01.952Z"
+  },
+  ".git/objects/96/117670cc90374ca8f10aa7c8d4145f84245a6e": {
+    "size": 369,
+    "date": "2015-09-08T21:55:02.210Z"
+  },
+  ".git/objects/98/ec4d6602f02b6b3fe4d33a840950421fe62113": {
+    "size": 1726,
+    "date": "2015-09-08T21:55:02.444Z"
+  },
+  ".git/objects/9a/c0452f2f5b92ce6158f7f1ccfd9ee62f69a294": {
+    "size": 132,
+    "date": "2015-09-08T21:55:02.708Z"
+  },
+  ".git/objects/9a/c6c135240edc1ee67d49a7ef0749928116f8ee": {
+    "size": 309,
+    "date": "2015-09-08T21:55:10.341Z"
+  },
+  ".git/objects/9b/2cf6f094f0f6a2d1a1b42e8c4f36b180520ae3": {
+    "size": 164,
+    "date": "2015-09-08T21:55:10.578Z"
+  },
+  ".git/objects/9c/0de8a513219571961de7fe04edfe6f9d9431d5": {
+    "size": 378,
+    "date": "2015-09-08T21:55:10.843Z"
+  },
+  ".git/objects/9e/8163335f20af6728dd1f998631664f00fa0545": {
+    "size": 570,
+    "date": "2015-09-08T21:55:11.073Z"
+  },
+  ".git/objects/9f/9563ebdae66304ceff42478fdb1e2da8d7b54d": {
+    "size": 214,
+    "date": "2015-09-08T21:55:11.309Z"
+  },
+  ".git/objects/a0/d90482200fd3a61e4edac374c942d0df570774": {
+    "size": 863,
+    "date": "2015-09-08T21:55:11.545Z"
+  },
+  ".git/objects/a1/a6ab5326acc85546ed0ebac38a302f05f71be2": {
+    "size": 1307,
+    "date": "2015-09-08T21:55:11.775Z"
+  },
+  ".git/objects/a2/4c5814152830d92990c05613349bc60b7e1d2c": {
+    "size": 2126,
+    "date": "2015-09-08T21:55:12.008Z"
+  },
+  ".git/objects/a2/992a34c628ffa9268d03761c66f9ac43d7e228": {
+    "size": 489,
+    "date": "2015-09-08T21:55:12.242Z"
+  },
+  ".git/objects/a3/67f651c1a11d2dd20e18c5dc9f892811c66ee0": {
+    "size": 328,
+    "date": "2015-09-08T21:55:12.508Z"
+  },
+  ".git/objects/a3/9c2fd5e5d33195caae3ffd635b27334a5e8cdb": {
+    "size": 1618,
+    "date": "2015-09-08T21:55:12.745Z"
+  },
+  ".git/objects/a4/a6034c44d6f6e1348d6ee2fbd1ae155b9c8b93": {
+    "size": 149424,
+    "date": "2015-09-08T21:55:13.201Z"
+  },
+  ".git/objects/a6/0a581907fd938bb2e199cb57cb9eac47e943ed": {
+    "size": 1259,
+    "date": "2015-09-08T21:55:13.424Z"
+  },
+  ".git/objects/a6/4e0bf219db5e22488fb80445101ea3c6243b8b": {
+    "size": 184,
+    "date": "2015-09-08T21:55:13.690Z"
+  },
+  ".git/objects/a7/aa052b518e47ef260357a95a1248cf7acffbdd": {
+    "size": 160,
+    "date": "2015-09-08T21:55:13.962Z"
+  },
+  ".git/objects/a9/fd1efc974e73994201d00b404f99e0ef1919c3": {
+    "size": 225,
+    "date": "2015-09-08T21:55:14.224Z"
+  },
+  ".git/objects/aa/b99a252dcdfe8e1737840e5f253bd4185d359f": {
+    "size": 257,
+    "date": "2015-09-08T21:55:14.458Z"
+  },
+  ".git/objects/aa/c675f5a1a4844e59821aa41d53f90e0e5860ca": {
+    "size": 533,
+    "date": "2015-09-08T21:55:14.692Z"
+  },
+  ".git/objects/ab/ddc0204709c25fe432c77cc6934de79948ed85": {
+    "size": 95,
+    "date": "2015-09-08T21:55:14.960Z"
+  },
+  ".git/objects/ac/b2a43aadb5e0ce0cc50e63e465a461a846a9a4": {
+    "size": 607,
+    "date": "2015-09-08T21:55:15.188Z"
+  },
+  ".git/objects/ae/81a44ada76293bcfb74305521bbf00f61dd446": {
+    "size": 218,
+    "date": "2015-09-08T21:55:15.460Z"
+  },
+  ".git/objects/ae/ee1f2df2e2446eff1872a2a7b3589c93be607b": {
+    "size": 216,
+    "date": "2015-09-08T21:55:15.690Z"
+  },
+  ".git/objects/b5/c9b15c3536a8c67d2124750092afbcfd209c25": {
+    "size": 605,
+    "date": "2015-09-08T21:55:15.924Z"
+  },
+  ".git/objects/b7/e98d1b057cd5328fe687077ca093bb98b884c9": {
+    "size": 733,
+    "date": "2015-09-08T21:55:16.157Z"
+  },
+  ".git/objects/b8/f8ffb0e77a8b3b0079ea943b82d58d2727460e": {
+    "size": 115,
+    "date": "2015-09-08T21:55:16.387Z"
+  },
+  ".git/objects/be/2d40e1e6f44c63203459081d60030e45da86b0": {
+    "size": 159,
+    "date": "2015-09-08T21:55:16.588Z"
+  },
+  ".git/objects/c0/96fdb92c3bd800e5ceecb08ca8ab9368aa9936": {
+    "size": 210,
+    "date": "2015-09-08T21:55:16.822Z"
+  },
+  ".git/objects/c2/825ea61177efe7f7c9ab4a7ea7b86474341225": {
+    "size": 250,
+    "date": "2015-09-08T21:55:17.090Z"
+  },
+  ".git/objects/c3/1f8c6a194d78007d236adc35a00e659440c9c2": {
+    "size": 185,
+    "date": "2015-09-08T21:55:17.320Z"
+  },
+  ".git/objects/c8/5a56f1231420539fe52d49d1664145885e984c": {
+    "size": 1344,
+    "date": "2015-09-08T21:55:17.560Z"
+  },
+  ".git/objects/c8/bbfb2f22c54e495c0f21b0440ea35767720aaa": {
+    "size": 1290,
+    "date": "2015-09-08T21:55:17.823Z"
+  },
+  ".git/objects/cb/41099c983b8dcf1f7c2bfad4e46544adf369ca": {
+    "size": 605,
+    "date": "2015-09-08T21:55:18.023Z"
+  },
+  ".git/objects/cc/22558f653e75cd310b6a214e7dc46b02d4d78b": {
+    "size": 342,
+    "date": "2015-09-08T21:55:18.254Z"
+  },
+  ".git/objects/cd/71d4f534da6759423d8d38d6f859e112e0cc38": {
+    "size": 366,
+    "date": "2015-09-08T21:55:18.496Z"
+  },
+  ".git/objects/cf/568ce6db78216ea91ad2f734ffa8e32f71959e": {
+    "size": 534,
+    "date": "2015-09-08T21:55:18.764Z"
+  },
+  ".git/objects/d0/a98c90d7c872843ff1dc08481bc6bcab5d6932": {
+    "size": 39,
+    "date": "2015-09-08T21:55:18.988Z"
+  },
+  ".git/objects/d0/b99b923524910593aa7ab606b273f9af6e0411": {
+    "size": 2112,
+    "date": "2015-09-08T21:55:19.205Z"
+  },
+  ".git/objects/d4/1b20fab270e7e9f8efe6888129d6dad3a2a957": {
+    "size": 605,
+    "date": "2015-09-08T21:55:19.469Z"
+  },
+  ".git/objects/d4/4870aeea1036104d8f557d5b19f567f73e4cff": {
+    "size": 1501,
+    "date": "2015-09-08T21:55:19.706Z"
+  },
+  ".git/objects/d4/e555100d756697323e5cf49528b84fe5c7e80a": {
+    "size": 99,
+    "date": "2015-09-08T21:55:19.939Z"
+  },
+  ".git/objects/d5/bc2df9c307d6381f614f70a063296a75a825a6": {
+    "size": 379,
+    "date": "2015-09-08T21:55:20.172Z"
+  },
+  ".git/objects/d6/78edc904ea764a456e6a52b5e2a73be01bec37": {
+    "size": 3238,
+    "date": "2015-09-08T21:55:20.442Z"
+  },
+  ".git/objects/d6/ad2f49197feccc0f9279e97f9752845cdbe7b9": {
+    "size": 377,
+    "date": "2015-09-08T21:55:20.655Z"
+  },
+  ".git/objects/d7/c7c49df37410c81c18471263d0d071f330bb3e": {
+    "size": 213,
+    "date": "2015-09-08T21:55:20.889Z"
+  },
+  ".git/objects/d8/6ee79d938dfa0ae213e68ba9eef566379aa300": {
+    "size": 350,
+    "date": "2015-09-08T21:55:21.123Z"
+  },
+  ".git/objects/da/8b4d5b65bb59f0d062caf500f5849396c5c092": {
+    "size": 147,
+    "date": "2015-09-08T21:55:21.392Z"
+  },
+  ".git/objects/dd/6a68acb1ce8bf501d94bc62a1b977caa51ab94": {
+    "size": 1101,
+    "date": "2015-09-08T21:55:21.653Z"
+  },
+  ".git/objects/de/beabc539d1791599c6c9beef3f6eeefd5169c2": {
+    "size": 527,
+    "date": "2015-09-08T21:55:21.889Z"
+  },
+  ".git/objects/df/81570a40f158ae768dcb1b586d09ee9cb9e972": {
+    "size": 215,
+    "date": "2015-09-08T21:55:22.175Z"
+  },
+  ".git/objects/e0/401ed8df1243f2d92fe29d2f33e1df88715aff": {
+    "size": 348,
+    "date": "2015-09-08T21:55:22.425Z"
+  },
+  ".git/objects/e0/a65a05c2c35535a3c189181e8266f4a11a5818": {
+    "size": 383,
+    "date": "2015-09-08T21:55:22.688Z"
+  },
+  ".git/objects/e2/6e1f6735b20d46342db406bec438f4216bd18d": {
+    "size": 247,
+    "date": "2015-09-08T21:55:22.920Z"
+  },
+  ".git/objects/e3/e87f315a9c542eca0787888a682fda8e474bf1": {
+    "size": 467,
+    "date": "2015-09-08T21:55:23.187Z"
+  },
+  ".git/objects/e4/60f3ffdbf66aa38532c7e76a014ec2ee436f51": {
+    "size": 539,
+    "date": "2015-09-08T21:55:23.421Z"
+  },
+  ".git/objects/e5/705a82630bf3424ddf8b5d30e3316230df96df": {
+    "size": 166,
+    "date": "2015-09-08T21:55:23.685Z"
+  },
+  ".git/objects/e6/5d0fc58dbb15e9cadca878963d82afb52f9fa4": {
+    "size": 1637,
+    "date": "2015-09-08T21:55:23.921Z"
+  },
+  ".git/objects/e6/9141f526dad320e5cc227854c5fe0730f2db25": {
+    "size": 167,
+    "date": "2015-09-08T21:55:24.187Z"
+  },
+  ".git/objects/e6/c47b67755f0e8bc85a45063351b4dcba59f50b": {
+    "size": 379,
+    "date": "2015-09-08T21:55:24.451Z"
+  },
+  ".git/objects/e6/d1b8cec00bdbc1bb7bc64820db47335ba8fa1e": {
+    "size": 3012,
+    "date": "2015-09-08T21:55:24.687Z"
+  },
+  ".git/objects/e7/e553af99beb25ec24f6b6305c6d82ad5209687": {
+    "size": 354,
+    "date": "2015-09-08T21:55:24.919Z"
+  },
+  ".git/objects/e7/e80de3f009b2dc844e0598b2e8afa95103db9c": {
+    "size": 4019,
+    "date": "2015-09-08T21:55:25.151Z"
+  },
+  ".git/objects/e7/e87b1930af0d6103bb69e711d6a72828de2fb1": {
+    "size": 949,
+    "date": "2015-09-08T21:55:25.387Z"
+  },
+  ".git/objects/eb/c9631fc36109bff3bf2bc0cb87dee4ab579faa": {
+    "size": 1951,
+    "date": "2015-09-08T21:55:25.618Z"
+  },
+  ".git/objects/ee/5eda422050c536082fd2db726d13d9af22d5af": {
+    "size": 161,
+    "date": "2015-09-08T21:55:25.870Z"
+  },
+  ".git/objects/f0/5dcc3b38144f983d5e0b43ae4b1369e8062e1d": {
+    "size": 216519,
+    "date": "2015-09-08T21:55:26.354Z"
+  },
+  ".git/objects/f1/d68ea26da599a1b34b11f8a3992751714b9fbc": {
+    "size": 1362,
+    "date": "2015-09-08T21:55:26.570Z"
+  },
+  ".git/objects/f2/f9a3e8dee11ce85fefae82f777d5540e534a44": {
+    "size": 41,
+    "date": "2015-09-08T21:55:26.836Z"
+  },
+  ".git/objects/f4/75b6aa16b1eff474d8ebf98bfb00446d3ca1ce": {
+    "size": 416,
+    "date": "2015-09-08T21:55:27.070Z"
+  },
+  ".git/objects/f7/bf7d43ff188fe93d273738ef7cc8fe5f1c42cc": {
+    "size": 212,
+    "date": "2015-09-08T21:55:27.301Z"
+  },
+  ".git/objects/f8/aba96783c4ca81c99d1b190cc7025eadfef371": {
+    "size": 161,
+    "date": "2015-09-08T21:55:27.536Z"
+  },
+  ".git/objects/fa/5a28d4077ab936696486c0efcfe1f47be6e5d3": {
+    "size": 529,
+    "date": "2015-09-08T21:55:27.803Z"
+  },
+  ".git/objects/fa/ff8ed2de0099fb8431a409e60d6a3042862530": {
+    "size": 391,
+    "date": "2015-09-08T21:55:28.034Z"
+  },
+  ".git/objects/fc/68e2dd0255fed1d421aa3c77c6f525b6398553": {
+    "size": 95,
+    "date": "2015-09-08T21:55:28.269Z"
+  },
+  ".git/objects/fd/4ab651ac89ac68ce79cfd146572d036b0fe814": {
+    "size": 1005,
+    "date": "2015-09-08T21:55:28.500Z"
+  },
+  ".git/refs/heads/gh-pages": {
+    "size": 41,
+    "date": "2015-09-08T21:55:28.735Z"
+  },
+  ".git/refs/heads/master": {
+    "size": 41,
+    "date": "2015-09-08T21:55:29.003Z"
+  },
+  ".git/refs/remotes/origin/gh-pages": {
+    "size": 41,
+    "date": "2015-09-08T21:55:29.236Z"
+  },
+  ".git/refs/remotes/origin/master": {
+    "size": 41,
+    "date": "2015-09-08T21:55:29.469Z"
+  },
+  ".git/refs/stash": {
+    "size": 41,
+    "date": "2015-09-08T21:55:29.735Z"
+  },
+  ".gitignore": {
+    "size": 441,
+    "date": "2015-09-08T21:55:30.000Z"
+  },
+  "css/.DS_Store": {
+    "size": 6148,
+    "date": "2015-09-08T21:55:30.338Z"
+  },
+  "html/cegismerteto.html": {
+    "size": 2091,
+    "date": "2015-09-08T21:55:33.258Z"
+  },
+  "html/garai-logo.html": {
+    "size": 3975,
+    "date": "2015-09-08T21:55:33.604Z"
+  },
+  "html/garai-logo2.html": {
+    "size": 3520,
+    "date": "2015-09-08T21:55:33.901Z"
+  },
+  "html/location.html": {
+    "size": 1637,
+    "date": "2015-09-08T21:55:34.170Z"
+  },
+  "html/mobile-nav-icon.html": {
+    "size": 1009,
+    "date": "2015-09-08T21:55:34.416Z"
+  },
+  "html/referenciak.html": {
+    "size": 24,
+    "date": "2015-09-08T21:55:34.683Z"
+  },
+  "img/.DS_Store": {
+    "size": 6148,
+    "date": "2015-09-08T21:55:35.001Z"
+  },
+  "img/garai-logo.ai": {
+    "size": 263616,
+    "date": "2015-09-08T21:55:37.521Z"
+  },
+  "img/garai-logo.svg": {
+    "size": 4140,
+    "date": "2015-09-08T21:55:37.846Z"
+  },
+  "img/garai-logo2.ai": {
+    "size": 196250,
+    "date": "2015-09-08T21:55:38.313Z"
+  },
+  "img/garai-logo2.svg": {
+    "size": 3644,
+    "date": "2015-09-08T21:55:38.552Z"
+  },
+  "img/icon_menu-circle_alt.svg": {
+    "size": 1147,
+    "date": "2015-09-08T21:55:38.814Z"
+  },
+  "img/location.svg": {
+    "size": 1835,
+    "date": "2015-09-08T21:55:39.051Z"
+  },
+  "img/mail.svg": {
+    "size": 1348,
+    "date": "2015-09-08T21:55:39.299Z"
+  },
+  "img/technical-security-systems.jpg": {
+    "size": 378784,
+    "date": "2015-09-08T21:55:39.948Z"
+  },
+  "img/technical-security-systems_csik.jpg": {
+    "size": 161814,
+    "date": "2015-09-08T21:55:40.414Z"
+  },
+  "img/telephone.svg": {
+    "size": 2034,
+    "date": "2015-09-08T21:55:40.648Z"
+  },
+  "img/telephone_fax.svg": {
+    "size": 3401,
+    "date": "2015-09-08T21:55:40.949Z"
+  },
+  "favicon.ico": {
+    "size": 99678,
+    "date": "2015-09-08T22:01:46.154Z"
   }
 }
